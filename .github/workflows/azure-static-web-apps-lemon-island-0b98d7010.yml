@@ -19,5 +19,5 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }} # for PR comments
           action: "upload"
           app_location: "public"               # root folder (contains package.json)
-          api_location: "api"            # folder with Azure Functions
-          output_location: "."      # built static site (or just static HTML)
+          api_location: ""            # folder with Azure Functions
+          output_location: ""      # built static site (or just static HTML)
